@@ -3,6 +3,8 @@ import { Editor } from "@tinymce/tinymce-react";
 
 interface TemplateProps {}
 
+/* This is Tinymce editor which will be used to create a template according to the given fields */
+
 const Template: React.FC<TemplateProps> = () => {
   const handleEditorChange = (content: any, editor: any) => {
     console.log("Content was updated:", content, editor);

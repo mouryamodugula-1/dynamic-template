@@ -6,6 +6,8 @@ interface CopyButtonProps {
   fieldCode: string;
 }
 
+/* This copy button will be called to SearchField and loops for the any number of fields available  */
+
 const CopyButton: React.FC<CopyButtonProps> = ({ fieldCode }) => {
   const [state, copyToClipboard] = useCopyToClipboard();
   const [buttonText, setButtonText] = React.useState("Copy field code");
