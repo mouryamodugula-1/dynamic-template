@@ -1,0 +1,72 @@
+@import "antd/dist/antd.css";
+
+.header-order-div {
+  background-color: white;
+  box-shadow: 1px 2px 3px #ccc;
+}
+.brand-logo,
+.brand-logo-ie {
+  position: absolute;
+  height: 40px;
+}
+.ant-layout-header {
+  padding: 4px;
+  height: 52px;
+}
+.header-title {
+  font-size: 32px;
+}
+.ant-input:hover {
+  border: 1px solid transparent;
+}
+.column-details {
+  word-break: break-word;
+}
+.logged-user {
+  float: right;
+}
+@media (max-width: 425px) {
+  .ant-layout-header {
+    padding: 0;
+    height: 35px;
+  }
+  .brand-logo {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 425px) {
+  .ant-layout-header {
+    padding: 0;
+    height: 50px;
+  }
+  .brand-logo {
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  .ant-layout-header {
+    height: 82px;
+  }
+  .header-title {
+    font-size: 32px;
+  }
+  .header-subtitle {
+    font-size: 20px;
+  }
+  .ant-layout-header {
+    padding: 0;
+    height: 70px;
+  }
+  .brand-logo {
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+}

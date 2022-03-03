@@ -1,0 +1,11 @@
+@import "antd/dist/antd.css";
+
+.center {
+  text-align: center;
+  margin-top: 10px;
+  color: darkorange;
+}
+
+.save-button {
+  margin-top: 5px;
+}

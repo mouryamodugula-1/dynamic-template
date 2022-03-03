@@ -1,0 +1,25 @@
+@import "antd/dist/antd.css";
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 96%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+}
+.right {
+  float: right;
+}
+.footer_link {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-size: 15px;
+  }
+}
